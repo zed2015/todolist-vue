@@ -1,0 +1,36 @@
+.top_nav {
+    position: relative;
+    width: 100%;
+    height: 44px;
+    font-size: 1.6rem;
+    color: rgba(255,255,255,0.87);
+    padding: 0px 0;
+    border: 1px solid #efefef;
+    background-color: #282828;
+    //display: inline;
+    >#logo {
+        position: relative;
+        display: inline-block;
+        > a{
+            display: inline-block;
+            witdth: 24px;
+            height: 24px;
+            line-height: 40px;
+            img {
+                display: inline-block;
+                vertical-align: middle;
+                width: 24px;
+                height: 24px;
+            }
+
+        }
+    }
+    >#quick_find {
+        display: inline-block;
+
+    }
+    >#top_icons {
+        display: inline-block;
+
+    }
+}

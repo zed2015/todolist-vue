@@ -1,0 +1,69 @@
+//@font-face {
+//    font-family: Helvetica;
+//    src: url("/static/font/Helvetica-Narrow.ttf");
+//}
+
+$fontName: Helvetica,
+"sans-serif",
+"SimHei",
+"SimSun",
+"KaiTi";
+$bg: #1f1f1f;
+$maxWidth: 1280px;
+$minWidth: 1200px;
+$screenPadWidth: 768px;
+$blueColor: #061874; //导航栏字体颜色
+$f4bg: #F4F4F4; //导航栏背景颜色
+$C4Color: #4c4c4c; //底部li标题字体颜色
+$liColor: #666; //底部li字体颜色
+$footerBg: #e4e4e4;
+
+/**
+ * 清除浮动
+ */
+
+.clearfix {
+    zoom: 1;
+    &:after {
+        content: " ";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+}
+
+
+/*淡入淡出效果*/
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity .5s
+}
+
+.fade-enter,
+.fade-leave-to
+/* .fade-leave-active 在低于版本 2.1.8 中 */
+
+{
+    opacity: 0
+}
+
+
+/*向下滑动出现效果*/
+
+.slide-fade-enter-active {
+    transition: all .3s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+/* .slide-fade-leave-active 在低于 2.1.8 版本中 */
+
+{
+    transform: translateY(-10px);
+    opacity: 0;
+}
