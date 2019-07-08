@@ -10,8 +10,8 @@
             <input id="quick_find_input" placeholder="快速查找">
         </div>
         <div id="top_icons">
-            <span id="notification">通知</span>
-            <span id="setting">设置</span>
+            <span id="notification" class="icons">通知</span>
+            <span id="setting" class="icons">设置</span>
         </div>
     </div>
 </template>

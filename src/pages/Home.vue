@@ -1,5 +1,21 @@
 <template>
-    <top-nav></top-nav>
+    <div id="home">
+        <div id="top_bar">
+            <top-nav></top-nav>
+        </div>
+        <div id="content_wrapper">
+            <div id="left_menu">
+            </div>
+            <div id="content">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
     
 </template>
 
